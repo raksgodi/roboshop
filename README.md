@@ -1,1 +1,2 @@
-# roboshop
+#!/bin/bash
+echo "hi"
