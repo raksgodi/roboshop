@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e   # ensure your script will stop if any of the instruction fails
 
-source components/common.sh
+#source components/common.sh
 
 echo -n "Installing Nginx: "
 yum install nginx -y   >> /tmp/frontend.log 
