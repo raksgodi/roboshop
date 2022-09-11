@@ -7,7 +7,7 @@ echo -n "Installing Nginx: "
 yum install nginx -y   >> /tmp/frontend.log 
 
 systemctl enable nginx 
-
+echo "hello"
 echo -n "Starting Nginx: "
 systemctl start nginx 
 stat $?
